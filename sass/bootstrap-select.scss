@@ -1,7 +1,7 @@
 @import "variables";
 
 // Mixins
-.cursor-disabled() {
+@mixin cursor-disabled() {
   cursor: not-allowed;
 }
 
@@ -19,12 +19,12 @@
 
   // Error display
   .error & .btn {
-    border: 1px solid @color-red-error;
+    border: 1px solid $color-red-error;
   }
 
   // Error display
   .control-group.error & .dropdown-toggle {
-    border-color: @color-red-error;
+    border-color: $color-red-error;
   }
 
   &.fit-width {
@@ -32,7 +32,7 @@
   }
 
   &:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
-    width: @width-default;
+    width: $width-default;
   }
 
   .btn:focus {
@@ -97,7 +97,7 @@
   }
 
   > .disabled {
-    .cursor-disabled();
+    @include cursor-disabled;
 
     &:focus {
       outline: none !important;
@@ -129,7 +129,7 @@
   // The selectpicker dropdown
   .dropdown-menu {
     min-width: 100%;
-    z-index: @zindex-select-dropdown;
+    z-index: $zindex-select-dropdown;
     box-sizing: border-box;
 
     &.inner {
@@ -147,12 +147,12 @@
       &:not(.disabled) a:hover small,
       &:not(.disabled) a:focus small,
       &.active:not(.disabled) a small {
-        color: @color-blue-hover;
-        color: fade(@color-blue-hover, 40%);
+        color: $color-blue-hover;
+        color: fade($color-blue-hover, 40%);
       }
 
       &.disabled a {
-        .cursor-disabled();
+        @include cursor-disabled;
       }
 
       a {
@@ -226,7 +226,7 @@
 
 .bootstrap-select.show-menu-arrow {
   &.open > .btn {
-    z-index: @zindex-select-dropdown + 1;
+    z-index: $zindex-select-dropdown + 1;
   }
 
   .dropdown-toggle {
@@ -236,8 +236,8 @@
       border-right: 7px solid transparent;
       border-bottom-width: 7px;
       border-bottom-style: solid;
-      border-bottom-color: @color-grey-arrow;
-      border-bottom-color: fade(@color-grey-arrow, 20%);
+      border-bottom-color: $color-grey-arrow;
+      border-bottom-color: fade($color-grey-arrow, 20%);
       position: absolute;
       bottom: -4px;
       left: 9px;
@@ -263,8 +263,8 @@
       border-bottom: 0;
       border-top-width: 7px;
       border-top-style: solid;
-      border-top-color: @color-grey-arrow;
-      border-top-color: fade(@color-grey-arrow, 20%);
+      border-top-color: $color-grey-arrow;
+      border-top-color: fade($color-grey-arrow, 20%);
     }
 
     &:after {
