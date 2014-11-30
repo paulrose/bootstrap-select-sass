@@ -1,11 +1,12 @@
 # OS or Editor folders
 .DS_Store
 .idea
-.sass-cache
 
 # Folders to ignore
 node_modules
 bower_components
+.sass-cache
+.sass-cache/*
 
 # Dist zip
 bootstrap-select-*.zip
