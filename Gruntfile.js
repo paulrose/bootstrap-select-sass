@@ -12,7 +12,7 @@ module.exports = function (grunt) {
     // Metadata.
     pkg: grunt.file.readJSON('package.json'),
     banner: '/*!\n' +
-    ' * Bootstrap-select v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+    ' * Bootstrap-select-sass v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
     ' *\n' +
     ' * Copyright 2013-<%= grunt.template.today(\'yyyy\') %> bootstrap-select\n' +
     ' * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n' +
@@ -110,7 +110,7 @@ module.exports = function (grunt) {
           position: 'top',
           banner: '<%= banner %>'
         },
-        src: '<%= sass.dist.files[Object.keys(sass.dist.files)[0]] %>'
+        src: '<%= Object.keys(sass.dist.files)[0] %>'
       }
     },
 
@@ -121,7 +121,7 @@ module.exports = function (grunt) {
         noAdvanced: true
       },
       css: {
-        src: '<%= sass.dist.files[Object.keys(sass.dist.files)[0]] %>',
+        src: '<%= Object.keys(sass.dist.files)[0] %>',
         dest: 'dist/css/<%= pkg.name %>.min.css'
       }
     },
@@ -148,7 +148,7 @@ module.exports = function (grunt) {
         'overqualified-elements': false
       },
       css: {
-        src: '<%= sass.dist.files[Object.keys(sass.dist.files)[0]] %>'
+        src: '<%= Object.keys(sass.dist.files)[0] %>'
       }
     },
 
@@ -188,7 +188,7 @@ module.exports = function (grunt) {
         options: {
           map: true
         },
-        src: '<%= sass.dist.files[Object.keys(sass.dist.files)[0]] %>'
+        src: '<%= Object.keys(sass.dist.files)[0] %>'
       }
     },
 

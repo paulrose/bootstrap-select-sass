@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap-select",
+  "name": "bootstrap-select-sass",
   "main": [
-    "less/bootstrap-select.less",
+    "sass/bootstrap-select-sass.scss",
     "dist/css/bootstrap-select.css",
     "dist/js/bootstrap-select.js"
   ],
@@ -10,11 +10,15 @@
   "authors": [
     "silviomoreto"
   ],
+  "contributors": [
+    "paulrose"
+  ],
   "keywords": [
     "form",
     "bootstrap",
     "select",
-    "replacement"
+    "replacement",
+    "sass"
   ],
   "dependencies": {
     "jquery": ">=1.8"

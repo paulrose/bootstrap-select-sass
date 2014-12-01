@@ -6,7 +6,7 @@
 node_modules
 bower_components
 .sass-cache
-.sass-cache/*
+.sass-cache/* 
 
 # Dist zip
 bootstrap-select-*.zip

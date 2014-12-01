@@ -1,13 +1,19 @@
 {
-  "name": "bootstrap-select/bootstrap-select",
+  "name": "bootstrap-select-sass/bootstrap-select-sass",
   "description": "A custom <select> for Bootstrap using button dropdown as replacement",
   "keywords": ["form", "bootstrap", "select", "replacement"],
-  "homepage": "https://github.com/silviomoreto/bootstrap-select",
-  "version": "1.6.3",
+  "homepage": "https://github.com/paulrose/bootstrap-select-sass",
+  "version": "1.6.3-sass",
   "authors": [
     {
       "name": "Silvio Moreto",
       "homepage": "https://github.com/silviomoreto/"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Paul Rose",
+      "homepage": "https://github.com/paulrose/"
     }
   ],
   "license": "MIT",

@@ -1,9 +1,9 @@
 {
-  "name": "bootstrap-select",
-  "title": "bootstrap-select",
-  "filename": "bootstrap-select.js",
-  "description": "A custom <select> for Bootstrap using button dropdown as replacement",
-  "version": "1.6.3",
+  "name": "bootstrap-select-sass",
+  "title": "bootstrap-select-sass",
+  "filename": "bootstrap-select-sass.js",
+  "description": "A custom <select> for Bootstrap using button dropdown as replacement, ported to SASS",
+  "version": "1.6.3-sass",
   "homepage": "http://silviomoreto.github.io/bootstrap-select/",
   "author": {
     "name": "Silvio Moreto",
@@ -29,14 +29,18 @@
     {
       "name": "t0xicCode",
       "url": "https://github.com/t0xicCode"
+    },
+    {
+      "name": "Paul Rose",
+      "url": "https://github.com/paulrose"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/silviomoreto/bootstrap-select.git"
+    "url": "git://github.com/paulrose/bootstrap-select-sass.git"
   },
   "bugs": {
-    "url": "https://github.com/silviomoreto/bootstrap-select/issues"
+    "url": "https://github.com/paulrose/bootstrap-select-sass/issues"
   },
   "license": {
     "type": "MIT",
