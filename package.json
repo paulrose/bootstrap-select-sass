@@ -3,7 +3,7 @@
   "title": "bootstrap-select-sass",
   "filename": "bootstrap-select-sass.js",
   "description": "A custom <select> for Bootstrap using button dropdown as replacement, ported to SASS",
-  "version": "1.6.3-sass",
+  "version": "1.6.3",
   "homepage": "https://github.com/paulrose/bootstrap-select-sass",
   "author": {
     "name": "Silvio Moreto",
