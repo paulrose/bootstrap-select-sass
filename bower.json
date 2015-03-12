@@ -5,8 +5,8 @@
     "dist/css/bootstrap-select.css",
     "dist/js/bootstrap-select.js"
   ],
-  "version": "1.6.3",
-  "homepage": "https://github.com/silviomoreto/bootstrap-select",
+  "version": "1.6.3-sass",
+  "homepage": "https://github.com/paulrose/bootstrap-select-sass",
   "authors": [
     "silviomoreto"
   ],

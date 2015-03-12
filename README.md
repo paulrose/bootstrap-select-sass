@@ -1,25 +1,26 @@
-bootstrap-select
+bootstrap-select-sass
 ================
 
-[![Latest release](http://img.shields.io/github/release/silviomoreto/bootstrap-select.svg)](https://github.com/silviomoreto/bootstrap-select/releases/latest)
-[![Dependency Status](https://david-dm.org/silviomoreto/bootstrap-select.svg)](https://david-dm.org/silviomoreto/bootstrap-select)
+[![Latest release](http://img.shields.io/github/release/paulrose/bootstrap-select.svg)](https://github.com/paulrose/bootstrap-select-sass/releases/latest)
+[![Dependency Status](https://david-dm.org/paulrose/bootstrap-select.svg)](https://david-dm.org/paulrose/bootstrap-select-sass)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
-[![devDependency Status](https://david-dm.org/silviomoreto/bootstrap-select/dev-status.svg)](https://david-dm.org/silviomoreto/bootstrap-select#info=devDependencies)
+[![devDependency Status](https://david-dm.org/paulrose/bootstrap-select-sass/dev-status.svg)](https://david-dm.org/paulrose/bootstrap-select#info=devDependencies)
 
 A custom select / multiselect for Bootstrap using button dropdown, designed to behave like regular Bootstrap selects.
 
 ## Demo and Documentation
 
-See a Bootstrap 3 example [here](http://silviomoreto.github.io/bootstrap-select).
+See a Bootstrap 3 example [here](http://paulrose.github.io/bootstrap-select-sass).
 
 ## Authors
 
-[Silvio Moreto](https://github.com/silviomoreto),
+[Silvio Moreto](https://github.com/paulrose),
 [Ana Carolina](https://github.com/anacarolinats),
 [caseyjhol](https://github.com/caseyjhol),
 [Matt Bryson](https://github.com/mattbryson), and
-[t0xicCode](https://github.com/t0xicCode).
+[t0xicCode](https://github.com/t0xicCode), and
+[Paul Rose](https://github.com/paulrose) (Sass Version).
 
 ## Usage
 
@@ -45,15 +46,15 @@ Or
 $('select').selectpicker();
 ```
 
-Checkout the [documentation](http://silviomoreto.github.io/bootstrap-select) for further information.
+Checkout the [documentation](http://paulrose.github.io/bootstrap-select-sass) for further information.
 
 ## CDN
 
-**N.B.**: The CDN is updated after the release is made public, which means that there is a delay between the publishing of a release and its availability on the CDN. Check [the GitHub page](https://github.com/silviomoreto/bootstrap-select/releases) for the latest release.
+**N.B.**: The CDN is updated after the release is made public, which means that there is a delay between the publishing of a release and its availability on the CDN. Check [the GitHub page](https://github.com/paulrose/bootstrap-select-sass/releases) for the latest release.
 
-* [//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css](//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css)
-* [//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js](//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js)
-* //cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/i18n/defaults-*.min.js (The translation files)
+* [//cdnjs.cloudflare.com/ajax/libs/bootstrap-select-sass/1.6.2/css/bootstrap-select.min.css](//cdnjs.cloudflare.com/ajax/libs/bootstrap-select-sass/1.6.2/css/bootstrap-select.min.css)
+* [//cdnjs.cloudflare.com/ajax/libs/bootstrap-select-sass/1.6.2/js/bootstrap-select.min.js](//cdnjs.cloudflare.com/ajax/libs/bootstrap-select-sass/1.6.2/js/bootstrap-select.min.js)
+* //cdnjs.cloudflare.com/ajax/libs/bootstrap-select-sass/1.6.2/js/i18n/defaults-*.min.js (The translation files)
 
 ## Bugs and feature requests
 
@@ -65,6 +66,6 @@ review the [guidelines for contributing](CONTRIBUTING.md). Make sure you're usin
 
 ## Copyright and license
 
-Copyright (C) 2013-2014 bootstrap-select
+Copyright (C) 2013-2014 bootstrap-select-sass
 
 Licensed under [the MIT license](LICENSE).
