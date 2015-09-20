@@ -1,7 +1,7 @@
-$color-red-error: rgb(185, 74, 72);
-$color-blue-hover: rgb(100, 177, 216);
-$color-grey-arrow: rgb(204, 204, 204);
+$color-red-error: rgb(185, 74, 72) !default;
+$color-blue-hover: rgb(100, 177, 216) !default;
+$color-grey-arrow: rgb(204, 204, 204) !default;
 
-$width-default: 220px;
+$width-default: 220px !default;
 
-$zindex-select-dropdown: 1035; 
+$zindex-select-dropdown: 1035 !default;
